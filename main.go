@@ -8,7 +8,7 @@ import (
 func main() {
 	str := "中国 中国"
 	tt,_ := urlEncoded(str)
-	fmt.Println(tt)
+	fmt.Println("编码后的字符",tt)
 }
 
 
